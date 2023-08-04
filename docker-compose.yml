@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  # Kali
+  kali:
+
+    # Plutôt qu'une image téléchargée depuis docker Hub, on va créer nous même une image
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: kali
