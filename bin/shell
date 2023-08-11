@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker run --tty --interactive kali-kali
+docker run --tty --interactive docker-kali-kali
